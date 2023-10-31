@@ -7,7 +7,13 @@ function Home() {
       <div className="home-header">
         <p>Hello! I'm</p>
         <h1>Cody Barker</h1>
-        <p>A Full-Stack Software Engineer with expertise in React, JavaScript, and Ruby on Rails.</p>
+        <p>A Full-Stack Software Engineer with a focus on React, JavaScript, and Ruby on Rails.</p>
+        <div className="home-buttons-container">
+          <button>Resume</button>
+          <button>LinkedIn</button>
+          <button>GitHub</button>
+          <button>Dev.to</button>
+        </div>
       </div>
     </div>
   )
