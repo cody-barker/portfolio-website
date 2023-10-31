@@ -46,11 +46,12 @@ nav {
 }
 
 .home-header img {
-  margin-top: 0px;
+  margin-top: 3px;
   display: flex;
   align-items: center;
   height: 24px;
   width: 24px;
+  margin-right: 10px;
 }
 
 .home-header img:hover {
@@ -70,6 +71,8 @@ nav {
 
 button {
   border-radius: 15px;
+  margin-right: 25px;
+  padding: 5px 15px 5px 15px;
 }
 
 button:hover {
