@@ -2,11 +2,17 @@
   text-align: center;
 }
 
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
 nav {
   display: flex;
   justify-content: flex-end;
   padding: 10px;
-  margin-right: 10%;
 }
 
 .nav-link{
@@ -16,8 +22,8 @@ nav {
 
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-flow: column wrap;
 }
 
