@@ -22,9 +22,8 @@ nav {
 
 .container {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-flow: column wrap;
+  align-items: center;
+  flex-direction: column;
 }
 
 .container img {
@@ -32,6 +31,7 @@ nav {
   height: 300px;
   border-radius: 50%;
   object-fit: cover;
+  box-shadow: 0 0 7px rgba(45, 59, 38, 0.5);
 }
 
 
