@@ -45,14 +45,32 @@ nav {
   margin-left: 25px;
 }
 
+.home-header img {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  height: 24px;
+  width: 24px;
+}
+
+.home-header img:hover {
+  cursor: pointer;
+}
+
 .large-text {
   font-size: x-large;
   font-weight: bold;
 }
 
-.home-buttons-container {
+.icons-container {
   display: flex;
+  flex-direction: row;
   flex-wrap: nowrap;
 }
+
+
+
+
+
 
 

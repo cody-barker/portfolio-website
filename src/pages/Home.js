@@ -1,8 +1,11 @@
 import headshot from '../assets/Cody_Barker_Headshot.jpg'
+import githubIcon from '../assets/brand-github.svg'
+import linkedInIcon from '../assets/brand-linkedin.svg'
+import devToIcon from '../assets/brand-dev.to.svg'
 
 function Home() {
 
-  function onBtnClick(url) {
+  function onClick(url) {
     window.open(url, '_blank')
   }
 
@@ -13,11 +16,11 @@ function Home() {
         <p>Hello! I'm</p>
         <h1>Cody Barker</h1>
         <p>A Full-Stack Software Engineer with a focus on React, JavaScript, and Ruby on Rails.</p>
-        <div className="home-buttons-container">
-          <button onClick={() => onBtnClick('https://drive.google.com/file/d/1n2ZNSdGDth-0gedkApnKqj9REJDzobSM/view?usp=sharing')}>Resume</button>
-          <button onClick={() => onBtnClick('https://www.linkedin.com/in/barkercody/')}>LinkedIn</button>
-          <button onClick={() => onBtnClick('https://github.com/cody-barker')}>Github</button>
-          <button onClick={() => onBtnClick('https://dev.to/codybarker')}>Dev.to</button>
+        <div className="icons-container">
+          <button onClick={() => onClick('https://drive.google.com/file/d/1n2ZNSdGDth-0gedkApnKqj9REJDzobSM/view?usp=sharing')}>Resume</button>
+          <img src={linkedInIcon} alt="LinkedIn icon" onClick={() => onClick('https://www.linkedin.com/in/barkercody/')}/>
+          <img src={githubIcon} alt="GitHub icon" onClick={() => onClick('https://github.com/cody-barker')}/>
+          <img src={devToIcon} alt="Dev.to icon" onClick={() => onClick('https://dev.to/codybarker')}/>
         </div>
       </div>
     </div>
