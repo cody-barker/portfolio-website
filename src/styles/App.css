@@ -2,12 +2,19 @@
   text-align: center;
 }
 
+@font-face {
+  font-family: 'Lora';
+  src: url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+}
+
+body {
+  font-family: 'Lora', sans-serif;
+}
+
 main {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  height: 40vh;
+  margin-left: 8%;
+  margin-right: 8%;
+  height: 45vh;
   display: flex;
 }
 
@@ -15,7 +22,7 @@ nav {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 10px;
+  margin-right: 25px;
 }
 
 .nav-link {
@@ -83,6 +90,8 @@ nav {
 }
 
 button {
+  font-family: 'Lora', sans-serif;
+  letter-spacing: .5px;
   border-radius: 15px;
   margin-right: 25px;
   padding: 5px 15px 5px 15px;
