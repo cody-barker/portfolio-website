@@ -19,8 +19,17 @@ nav {
 }
 
 .nav-link {
+  color: #263a15;
   margin: 10px;
   text-decoration: none;
+}
+
+.nav-link:visited {
+  color: #263a15;
+}
+
+.nav-link:hover {
+  color: #c9ab23;
 }
 
 .container {
@@ -43,6 +52,10 @@ nav {
   flex-direction: column;
   justify-content: flex-start;
   margin-left: 25px;
+}
+
+.home-header p {
+  margin-top: 0;
 }
 
 .home-header img {
