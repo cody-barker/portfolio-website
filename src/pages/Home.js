@@ -1,6 +1,11 @@
 import headshot from '../assets/Cody_Barker_Headshot.jpg'
 
 function Home() {
+
+  function onResumeBtnClick(url) {
+    window.open(url, '_blank')
+  }
+
   return(
     <div className="container">
       <img src={headshot} alt="headshot"/>
@@ -9,7 +14,7 @@ function Home() {
         <h1>Cody Barker</h1>
         <p>A Full-Stack Software Engineer with a focus on React, JavaScript, and Ruby on Rails.</p>
         <div className="home-buttons-container">
-          <button>Resume</button>
+          <button onClick={() => onResumeBtnClick('https://drive.google.com/file/d/1n2ZNSdGDth-0gedkApnKqj9REJDzobSM/view?usp=sharing')}>Resume</button>
           <button>LinkedIn</button>
           <button>GitHub</button>
           <button>Dev.to</button>
