@@ -15,7 +15,7 @@ function Home() {
       <div className="home-header">
         <h1>Cody Barker</h1>
         <p>Full-Stack Software Engineer</p>
-        <p> React | JavaScript | Ruby on Rails |</p>
+        <p>React | JavaScript | Ruby on Rails</p>
         <div className="icons-container">
           <button onClick={() => onClick('https://drive.google.com/file/d/1n2ZNSdGDth-0gedkApnKqj9REJDzobSM/view?usp=sharing')}>Resume</button>
           <img src={linkedInIcon} alt="LinkedIn icon" onClick={() => onClick('https://www.linkedin.com/in/barkercody/')}/>
