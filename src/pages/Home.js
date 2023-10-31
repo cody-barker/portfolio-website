@@ -2,8 +2,8 @@
 
 function Home() {
   return(
-    <div>
-      Home Page
+    <div className="container">
+      <h1>Cody Barker</h1>
     </div>
   )
 }
