@@ -7,11 +7,13 @@ main {
   margin-right: 10%;
   margin-top: 2%;
   margin-bottom: 2%;
+  display: flex;
 }
 
 nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  flex-direction: column;
   padding: 10px;
 }
 
@@ -23,10 +25,11 @@ nav {
 .container {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .container img {
+  margin-top: 50px;
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -34,6 +37,12 @@ nav {
   box-shadow: 0 0 7px rgba(45, 59, 38, 0.5);
 }
 
+.home-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 25px;
+}
 
 .large-text {
   font-size: x-large;
