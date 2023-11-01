@@ -108,6 +108,18 @@ button:hover {
   margin-left: 25px;
 }
 
+.about-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.about-container ul div {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
+
 .about-content {
   flex: 1;
   font-size: 14px;
@@ -118,12 +130,7 @@ ul li {
   list-style-type: none;
 }
 
-ul div {
-  display: flex;
-  flex-direction: column;
-  margin: 30px;
 
-}
 
 
 

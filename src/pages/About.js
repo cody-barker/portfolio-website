@@ -12,18 +12,24 @@ function About() {
         </p>
         <h2>My Skills</h2>
         <ul>
+          <div>
             <li>JavaScript</li>
             <li>React</li>
             <li>Redux</li>
             <li>Ruby on Rails</li>
+          </div>
+          <div>
             <li>Active Record</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>RESTful APIs</li>
+          </div>
+          <div>
             <li>Inkscape</li>
             <li>Project Management</li>
             <li>Customer Service</li>
             <li>Research</li>
+          </div>
         </ul>
       </div>
   )
