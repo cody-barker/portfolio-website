@@ -25,6 +25,7 @@ nav {
   color: #263a15;
   margin: 10px;
   text-decoration: none;
+  padding:2px;
 }
 
 .nav-link:visited {
@@ -32,7 +33,12 @@ nav {
 }
 
 .nav-link:hover {
-  color: #c9ab23;
+  border-radius: 50%;
+  box-shadow: 0 0 7px rgb(205, 184, 25);
+}
+
+.nav-link img {
+  display: flex;
 }
 
 .container {
@@ -48,6 +54,15 @@ nav {
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 0 7px rgba(45, 59, 38, 0.4);
+}
+
+
+#no-shadow{
+  box-shadow: none;
+}
+
+#no-shadow:hover {
+  box-shadow: 0 0 7px rgb(205, 184, 25);
 }
 
 .home-header {
@@ -72,6 +87,8 @@ nav {
 
 .home-header img:hover {
   cursor: pointer;
+  box-shadow: 0 0 7px rgb(205, 184, 25);
+
 }
 
 .large-text {
@@ -97,6 +114,7 @@ button {
 
 button:hover {
   cursor: pointer;
+  box-shadow: 0 0 7px rgb(205, 184, 25);
 }
 
 .about-container {

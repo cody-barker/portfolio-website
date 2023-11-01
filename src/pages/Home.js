@@ -18,9 +18,9 @@ function Home() {
         <p>React | JavaScript | Ruby on Rails</p>
         <div className="icons-container">
           <button onClick={() => onClick('https://drive.google.com/file/d/1n2ZNSdGDth-0gedkApnKqj9REJDzobSM/view?usp=sharing')}>Resume</button>
-          <img src={linkedInIcon} alt="LinkedIn icon" onClick={() => onClick('https://www.linkedin.com/in/barkercody/')}/>
-          <img src={githubIcon} alt="GitHub icon" onClick={() => onClick('https://github.com/cody-barker')}/>
-          <img src={devToIcon} alt="Dev.to icon" onClick={() => onClick('https://dev.to/codybarker')}/>
+          <img id="no-shadow" src={linkedInIcon} alt="LinkedIn icon" onClick={() => onClick('https://www.linkedin.com/in/barkercody/')}/>
+          <img id="no-shadow" src={githubIcon} alt="GitHub icon" onClick={() => onClick('https://github.com/cody-barker')}/>
+          <img id="no-shadow" src={devToIcon} alt="Dev.to icon" onClick={() => onClick('https://dev.to/codybarker')}/>
         </div>
       </div>
     </div>
