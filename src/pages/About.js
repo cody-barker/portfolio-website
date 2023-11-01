@@ -2,7 +2,6 @@
 
 function About() {
   return(
-    <div className="container">
       <div className="about-container">
         <h2>hi, i'm cody!</h2>
         <p className="about-content">I'm a Full-Stack Software Engineer, experienced with React, JavaScript, Ruby on Rails, and more. I graduated from Flatiron School, where I built projects combining React frontends and Ruby on Rails backends. 
@@ -11,8 +10,22 @@ function About() {
         </p>
         <p>I also have extensive experience in ecological restoration and am passionate about the intersection of sustainability, technology, culture, and the environment. My desire is to create applications that connect users with their local environment, driving education and engagement in the world around us. I'm compassionate, professional, reliable, and eager to apply my proven project management and technical skills to the software industry.
         </p>
+        <h2>My Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Redux</li>
+            <li>Ruby on Rails</li>
+            <li>Active Record</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>RESTful APIs</li>
+            <li>Inkscape</li>
+            <li>Project Management</li>
+            <li>Customer Service</li>
+            <li>Research</li>
+        </ul>
       </div>
-    </div>
   )
 }
 

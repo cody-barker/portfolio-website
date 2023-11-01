@@ -108,6 +108,23 @@ button:hover {
   margin-left: 25px;
 }
 
+.about-content {
+  flex: 1;
+  font-size: 14px;
+  margin-left: 25px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul div {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+
+}
+
 
 
 
