@@ -4,7 +4,7 @@ function About() {
   return(
       <div className="about-container">
         <h2>hi, i'm cody!</h2>
-        <p className="about-content">I'm a Full-Stack Software Engineer, experienced with React, JavaScript, Ruby on Rails, and more. I graduated from Flatiron School, where I built projects combining React frontends and Ruby on Rails backends. 
+        <p className="about-content">I'm a Full-Stack Software Engineer, experienced with React, JavaScript, Ruby on Rails, and more. I graduated from Flatiron School, where I built projects combining React frontends with RESTful APIs using Ruby on Rails. 
         </p>
         <p>Prior to my software engineering career, I served as Director of Cultivation at Infinite Tree, where I managed the production and sale of over 200,000 USDA organic nursery plants, developed and released 4 industry-leading, university tested cultivars, conducted 15+ scientific cultivation studies, and provided consulting services to farms and government organizations domestically and internationally. 
         </p>
