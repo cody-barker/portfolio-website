@@ -1,15 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200;300&display=swap');
 .App {
   text-align: center;
 }
 
-@font-face {
-  font-family: 'Lora';
-  src: url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
-}
-
 body {
-  font-family: 'Lora', sans-serif;
-  color: #272727
+  font-family: "Spectral", serif;
 }
 
 main {
@@ -91,7 +86,7 @@ nav {
 }
 
 button {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Spectral', serif;
   letter-spacing: .5px;
   border-radius: 15px;
   margin-right: 25px;
@@ -103,6 +98,15 @@ button:hover {
   cursor: pointer;
 }
 
+.about-container {
+  padding: 10px;
+  line-height: 25px;
+}
+
+.about-container p {
+  font-size: 14px;
+  margin-left: 25px;
+}
 
 
 
