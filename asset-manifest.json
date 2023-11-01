@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.d7258a5e.css",
+    "main.js": "/portfolio-website/static/js/main.75288151.js",
+    "static/js/787.749b4a44.chunk.js": "/portfolio-website/static/js/787.749b4a44.chunk.js",
+    "static/media/Cody_Barker_Headshot.jpg": "/portfolio-website/static/media/Cody_Barker_Headshot.dc0639431d46ea35193c.jpg",
+    "static/media/brand-dev.to.svg": "/portfolio-website/static/media/brand-dev.to.605dc049d8ad1ac42c52303f957508fc.svg",
+    "index.html": "/portfolio-website/index.html",
+    "static/media/brand-github.svg": "/portfolio-website/static/media/brand-github.015a78b3d05600d250b77ab6c60846e4.svg",
+    "static/media/brand-linkedin.svg": "/portfolio-website/static/media/brand-linkedin.babbb1fe926ef0f7557371a6da78898f.svg",
+    "static/media/home-icon.svg": "/portfolio-website/static/media/home-icon.50961e59800b9ae40e2998f43c3d06a0.svg",
+    "static/media/user-icon.svg": "/portfolio-website/static/media/user-icon.2312ffead18ad77ce5da1e90ea75bbdd.svg",
+    "main.d7258a5e.css.map": "/portfolio-website/static/css/main.d7258a5e.css.map",
+    "main.75288151.js.map": "/portfolio-website/static/js/main.75288151.js.map",
+    "787.749b4a44.chunk.js.map": "/portfolio-website/static/js/787.749b4a44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7258a5e.css",
+    "static/js/main.75288151.js"
+  ]
+}
