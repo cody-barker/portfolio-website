@@ -87,6 +87,7 @@ nav {
 
 button {
   font-family: 'Spectral', serif;
+  background: transparent;
   letter-spacing: .5px;
   border-radius: 15px;
   margin-right: 25px;
